@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    .navbar{
+        text-align: center;
+        color: white;
+        background-color: rgb(52, 1, 1);
+        font-size: 1rem;
+        padding: 2rem;
+        .active{
+            border-bottom: 1px solid white;
+        }
+       
+    }
+    .hero{
+        display: flex;
+        margin-left: 2rem;
+        justify-content: space-between;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        .fre{
+            text-decoration: none;
+            color: black;
+        }
+        .btn{
+            display: flex;
+            gap: 3rem;
+
+        }
+        .web{
+            background-color: yellow;
+            padding: .50rem;
+            border-radius: 20px;
+        }
+        .wed{
+            background-color: white;
+            color: black;
+            padding: .50rem;
+            border-radius:20px ;
+        }
+       
+    }
+    .mails{
+        text-align: center;
+        margin-top: 5rem;
+        .act{
+            font-size: 3rem;
+            font-weight: bolder;
+            color: black;
+            margin-bottom: .50rem;
+        }
+        .wek{
+            background-color: yellow;
+            padding: .50rem;
+            border-radius: 20px;
+            margin-top: 1rem;
+        }
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        background-color: rgb(52, 1, 1);
+        font-size: 1rem;
+        padding: 2.10rem;
+        margin-top: 4rem;
+        .gid{
+            display: flex;
+            gap: 2rem;
+
+        }
+        .rew{
+            border: 1px solid white;
+            padding: .10rem;
+        }
+    }
+   
+   
+}
